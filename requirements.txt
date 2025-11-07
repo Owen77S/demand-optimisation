@@ -1,0 +1,36 @@
+# Requirements for Demand Optimization Project
+#
+# This file lists all third-party dependencies needed to run the project.
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (required for all functionality)
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Excel file support (required by algo_package.importation)
+openpyxl>=3.1.0
+xlrd>=2.0.1
+
+# Streamlit web application (streamlit_app.py)
+streamlit>=1.28.0
+
+# Legacy GUI application (GUI.py)
+customtkinter>=5.0.0
+
+# Standard library modules (included with Python, listed for reference):
+# - random
+# - os
+# - concurrent.futures
+# - time
+# - ast
+# - tkinter (usually pre-installed with Python)
+
+# Local project modules (not external dependencies):
+# - base_package.py
+# - algo_package.py
+# - appli.py
+# - plot_package.py
+# - test_package.py
+# - ia.py
+# - benchmark.py / benchmarks.py
