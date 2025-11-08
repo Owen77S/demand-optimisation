@@ -120,7 +120,7 @@ def calculation(filepath, column, type_profile, configs, fixeds, development, pa
             If False :
                 The optimisation will be as usual.
         
-        params : list or None
+        parameters : list or None
             If development is False : parameters = [len_pop, n_iter, n_sample]
             
             If development is True : parameters = None

@@ -29,14 +29,14 @@ def plot_profile(power, P, configs, fixeds, GUI=False):
         The figure containing the profiles.
 
     """
-    # if type(P[0]) != list:
-    #     P = [P]
+    if type(P[0]) != list:
+        P = [P]
         
-    # if type(configs[0]) != list:
-    #     # If there is only one configuration
-    #     configs = [configs]
-    # else:
-    #     configs = sorted(configs, key=lambda x:x[4], reverse=True)
+    if type(configs[0]) != list:
+        # If there is only one configuration
+        configs = [configs]
+    else:
+        configs = sorted(configs, key=lambda x:x[4], reverse=True)
     
     name_month = ["January",
                   "February",
